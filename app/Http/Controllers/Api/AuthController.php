@@ -16,9 +16,9 @@ class AuthController extends Controller
         
         $input = $request->only(['email', 'password']);
         try {
-            if (!$token = JWTAuth::attempt($input)) return $this->internalErrorResponse("Cek kembali password atau email anda",);
+            if (!$token = JWTAuth::attempt($input)) return response()->json(array('message'=>'Cek kembali email atau password anda'),401);
         } catch (JWTException $e) {
-            return $this->internalErrorResponse("Ada yang salah :(");
+            return response()->json(array('message'=>'Opss ada yang salah'));
         }
 
         //Token created, return with success response and jwt token
