@@ -9,7 +9,7 @@
                                             </div>
                                             <div class="col-xl-4">
                                                 <div class="text-xl-end mt-xl-0 mt-2">
-                                                <a href="{{ url('create') }}" class="btn btn-danger mb-2 me-2">Tambah Data</a>
+                                                <a href="{{ route('menu_tambah_page') }}" class="btn btn-danger mb-2 me-2">Tambah Data</a>
                                                 </div>
                                             </div><!-- end col-->
                                         </div>
