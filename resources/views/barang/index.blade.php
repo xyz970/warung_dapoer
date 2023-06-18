@@ -46,18 +46,18 @@
                                                     <thead class="table-light">
                                                         <tr>
                                                             <th>Id</th>
-                                                            <th>Nama Barang</th>
-                                                            <th>Barang</th>
+                                                            <th>Nama Menu</th>
+                                                            <th>Foto</th>
                                                             <th>Harga</th>
                                                             <th>Deskripsi</th>
                                                             <th>Action</th>
                                                         </tr>
                                                     </thead>
                                                     <tbody>
-                                                        @foreach ($data as $databarang)
+                                                        @foreach ($data as $key => $databarang )
                                                             <tr>
                                                                 <td>
-                                                                    {{ $databarang->id }}
+                                                                    {{ $key+1 }}
                                                                 </td>
                                                                 <td>
                                                                     {{ $databarang->nama_barang }}

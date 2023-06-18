@@ -66,19 +66,6 @@
                             <span> Pembayaran </span>
                         </a>
                     </li>
-
-                    <li class="side-nav-item">
-                        <a href="{{ route('data_menu') }}" class="side-nav-link">
-                            <i class="dripicons-shopping-bag"></i>
-                            <span> Menu </span>
-                        </a>
-                    </li>
-                    <li class="side-nav-item">
-                        <a href="{{ url('meja') }}" class="side-nav-link">
-                            <i class="mdi mdi-18px mdi-table-chair"></i>
-                            <span> Meja </span>
-                        </a>
-                    </li>
                     <li class="side-nav-item">
                         <a href="{{ url('pelanggan') }}" class="side-nav-link">
                             <i class="dripicons-user-group"></i>

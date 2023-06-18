@@ -20,4 +20,10 @@ class Barang extends Model
         return asset('images\products' . $this->barang);
 
     }
+    public function transaksi_detail() {
+        return $this->hasOne(TransaksiDetail::class);
+    }
+    public function kategori() {
+        return $this->belongsTo(Kategori::class,'id_kategori');
+    }
 }
