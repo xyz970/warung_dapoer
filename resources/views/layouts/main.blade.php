@@ -43,7 +43,7 @@
     <!-- Begin page -->
     <div class="wrapper">
         <!-- ========== Left Sidebar Start ========== -->
-        <div class="leftside-menu"  style="background-color: #FFCF40 !important; color: white !important">
+        <div class="leftside-menu"  style="background-color: #9f623f !important; color: white;">
             <div class="h-100" id="leftside-menu-container" data-simplebar="">
 
                 <!--- Sidemenu -->
